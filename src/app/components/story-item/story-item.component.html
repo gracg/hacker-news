@@ -1,0 +1,20 @@
+<div class="container">
+    <span class="index" *ngIf="showIndex==true">{{getIndex()}}.</span>
+    <img class="arrow" src="assets/grayarrow.gif">
+
+    <a class="title" *ngIf="getTitleURL()"  href="{{getTitleURL()}}">{{getTitle()}}</a>
+
+    <span class="sideTitle">(
+    <a *ngIf="getTitleURL()" href="{{getTitleURL()}}">{{regexURL()}}</a>
+    )
+    </span>
+    
+    <a class="title" *ngIf="!getTitleURL()" href="story/{{getStoryId()}}">{{getTitle()}}</a>
+
+    
+    <div class="break"></div>
+
+    <span class="lower">{{getPoints()}} points by {{getUser()}} {{calcDifference()}} | hide | <a class="commentLink" href="story/{{getStoryId()}}">{{getComments()}} comments</a></span>
+
+    
+</div>

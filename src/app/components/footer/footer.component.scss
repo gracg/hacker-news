@@ -1,0 +1,17 @@
+.bottom-links {
+    border-top: #FF6600 solid 2px ;
+    padding: 1rem 0rem;
+    margin-top: 0.4rem;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 10pt;
+
+    span {
+        font-family: Verdana, Geneva, sans-serif;
+    }
+
+    .seperator {
+        margin: 0rem 1rem;
+    }
+}

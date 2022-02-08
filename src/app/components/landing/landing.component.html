@@ -1,0 +1,12 @@
+<div class="container">
+    <app-lp-topbar></app-lp-topbar>
+    <div class="stories" *ngIf="getStories()" >
+        <div class="story" *ngFor="let store of getStories()">
+            <app-story-item [story]=store></app-story-item>
+        </div>
+        <div class="more">
+            <a href="?p={{pageIndex+1}}">More</a>
+        </div>
+    </div>
+    <app-footer></app-footer>
+</div>

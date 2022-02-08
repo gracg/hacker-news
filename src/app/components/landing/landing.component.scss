@@ -1,0 +1,25 @@
+.container {
+    margin: 0.5rem 7%;
+    padding: 0px;
+    background-color: #F6F6EF;
+
+    .stories {
+        margin-top: 0.5rem;
+    }
+
+    .more {
+
+        a {
+            color: #828282;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        margin-bottom: 5px;
+    }
+
+
+}

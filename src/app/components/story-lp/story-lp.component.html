@@ -1,0 +1,18 @@
+<div class="container">
+    <app-lp-topbar></app-lp-topbar>
+    <div class="story" *ngIf=getStory()>
+        <app-story-item [story]=getStory() [showIndex]=false></app-story-item>
+    </div>
+    
+    <textarea></textarea>
+    <hr>
+    <input class="but" type="submit" value="add comment">
+
+    <div *ngFor="let comment of getComments()">
+        <app-comment-item [comment]="comment"></app-comment-item>
+
+    </div>
+    <app-footer></app-footer>
+
+
+</div>

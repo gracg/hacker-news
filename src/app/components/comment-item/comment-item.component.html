@@ -1,0 +1,13 @@
+<div class="container">
+    <div>
+        <img class="arrow" src="assets/grayarrow.gif">
+    </div>
+
+    <div *ngIf="comment!=null">
+        <div class="bod"> 
+            <span class="upper">{{getUser()}} {{calcDifference()}} | next[&]</span>
+            <div class="message" [innerHTML]=getCommentText()></div>
+        </div>
+    </div>
+
+</div>

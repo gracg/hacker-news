@@ -1,0 +1,24 @@
+.container {
+    margin: 0.5rem 7%;
+    padding: 0px;
+    background-color: #F6F6EF;
+
+    .story {
+        margin-top: 1rem;
+    }
+
+
+    hr {
+        visibility: hidden;
+    }
+
+    textarea   {
+        margin-top: 1rem;
+        resize: both;
+        width: 41rem;
+        height: 8.6rem;
+    }
+
+
+}
+
